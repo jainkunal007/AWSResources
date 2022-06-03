@@ -26,6 +26,28 @@ https://github.com/0xdabbad00/cloudmapper
 8.https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-startup-security-baseline/controls-wkld.html
 
 
+Utilities:
+1. Access various accounts using Granted:
+https://granted.dev/
+
+2. Access Undenied
+https://github.com/ermetic/access-undenied-aws
+
+3. https://blog.symops.com/2022/05/06/least-privilege-policies-from-aws-logs/
+Great overview by Sym’s Adam Buggia on resources and tools for creating least privilege IAM policies. He discusses deriving AWS policies from CloudTrail Data vs designing policies using Client Side Monitoring (and their respective trade-offs), and how to generate policies for a Terraform Project using Localstack.
+
+4. S3 learning game
+https://master.d2av1kz25zeu6f.amplifyapp.com/
+https://n0j.github.io/2017/10/02/aws-s3-ctf.html
+
+5. IAM CTF
+https://github.com/BishopFox/iam-vulnerable
+
+6. Cloud GOAT
+https://github.com/RhinoSecurityLabs/cloudgoat
+
+7. Labs to learn Cloud Pentesting
+https://twitter.com/0xAs1F/status/1480605815039877130
 
 # WebSecurity Tutorials:
 https://web.stanford.edu/class/cs253/assign1
