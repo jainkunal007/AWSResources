@@ -52,8 +52,11 @@ https://twitter.com/0xAs1F/status/1480605815039877130
 # WebSecurity Tutorials:
 https://web.stanford.edu/class/cs253/assign1
 
+XSS Real world Example - Harvesting credit card details:
 https://medium.com/hackernoon/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5
 
+CSRF is DEAD:
+https://scotthelme.co.uk/csrf-is-dead/
 
 # Tools:
 1. Retool - can be used to built anything like small shop billing application
