@@ -55,5 +55,14 @@ https://web.stanford.edu/class/cs253/assign1
 
 
 # Tools:
-Retool - can be used to built anything like small shop billing application
+1. Retool - can be used to built anything like small shop billing application
 https://www.youtube.com/watch?time_continue=1521&v=NJk9dlT1rYY&feature=emb_logo
+
+
+
+# Smart Home Automation
+https://scotthelme.co.uk/creating-a-house-alarm-system-with-home-assistant/
+Open Source Home automation, can run on Raspberry Pi or a local server:
+https://www.home-assistant.io/
+
+
