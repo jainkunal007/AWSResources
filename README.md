@@ -51,3 +51,9 @@ https://twitter.com/0xAs1F/status/1480605815039877130
 
 # WebSecurity Tutorials:
 https://web.stanford.edu/class/cs253/assign1
+
+
+
+# Tools:
+Retool - can be used to built anything like small shop billing application
+https://www.youtube.com/watch?time_continue=1521&v=NJk9dlT1rYY&feature=emb_logo
