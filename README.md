@@ -49,6 +49,11 @@ https://github.com/RhinoSecurityLabs/cloudgoat
 7. Labs to learn Cloud Pentesting
 https://twitter.com/0xAs1F/status/1480605815039877130
 
+8.  I'm excited to announce that today, our team launched Cloudscape Design System (https://cloudscape.design/), an open source solution for building intuitive, engaging, and inclusive user experiences at scale. Cloudscape consists of guidelines to create web applications, along with the design resources and front-end components to streamline implementation.
+
+Our team built Cloudscape for AWS products and services to improve the user experience across AWS web applications, and help teams to implement those applications faster. We are releasing Cloudscape as open source so that anyone building cloud products can benefit from our design system, and join a community of designers and developers continually improving it.
+
+
 # WebSecurity Tutorials:
 https://web.stanford.edu/class/cs253/assign1
 
