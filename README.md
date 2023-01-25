@@ -67,6 +67,8 @@ https://scotthelme.co.uk/csrf-is-dead/
 1. Retool - can be used to built anything like small shop billing application
 https://www.youtube.com/watch?time_continue=1521&v=NJk9dlT1rYY&feature=emb_logo
 
+2. https://roadmap.sh/ help us find roadmaps to learn any programming language.
+
 
 
 # Smart Home Automation
