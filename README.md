@@ -78,8 +78,11 @@ https://www.home-assistant.io/
 
 # Learning Security / Preparing for Interview
 https://github.com/gracenolan/Notes/blob/master/interview-study-notes-for-security-engineering.md
+
 https://github.com/justinltodd/security-interview-questions
+
 https://github.com/security-prince/Application-Security-Engineer-Interview-Questions
+
 https://github.com/jigerjain/Interview_Tips
 
 # Good Reads:
