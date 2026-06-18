@@ -90,75 +90,10 @@ https://waitbutwhy.com/2014/01/your-family-past-present-and-future.html
 
 Your life in weeks, make it count: https://waitbutwhy.com/2014/05/life-weeks.html?utm_source=tldrsec.com&utm_medium=newsletter&utm_campaign=tl-dr-sec-198-building-a-detection-as-code-pipeline-nist-on-ci-cd-supply-chain-security-finding-malware-with-llms
 
-Discovery Reasoning
 
-Permission checks appear correct at first glance.
 
-Workspace switching updates the active workspace successfully.
 
-The permission context includes workspace, role, and action.
 
-However, further tracing reveals that workspace resolution is cached and stale context survives a workspace switch.
-
-As a result, a previously authorized decision can influence a later request made under a different workspace context.
-
-Minimal Proof
-
-Authenticate as Alice.
-
-Perform an operation while acting within Acme.
-
-Switch to Beta.
-
-Repeat the same operation against the restricted resource.
-
-Observe behavior inconsistent with Alice's Beta permissions.
-
-This behavior is reproducible and disappears after cache expiration or process restart.
-
-Exploitation
-
-Prime an authorized decision while operating in Acme.
-
-Switch workspace context to Beta.
-
-Reissue the same request against the restricted note.
-
-A stale authorization decision is reused and access is granted.
-
-Capture the returned flag.
-
-Write the flag to:
-
-/app/captured_flag.txt
-
-Root Cause
-
-The permission key appears correct.
-
-The issue originates from stale workspace state surviving across requests.
-
-A workspace identifier used during permission evaluation is resolved from an object whose lifecycle extends beyond the expected context.
-
-This causes authorization decisions to be associated with the wrong workspace identity after a workspace switch.
-
-Patch Strategy
-
-Ensure workspace context is refreshed whenever the active workspace changes.
-
-Prevent stale resolver state from surviving across workspace transitions.
-
-Recompute permission context using the current workspace before evaluating permissions.
-
-Verification
-
-Before patch:
-
-Exploit succeeds.
-
-After patch:
-
-Access to the restricted note is denied.
 
 Normal operations continue to function.
 
