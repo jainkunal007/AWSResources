@@ -89,12 +89,3 @@ https://github.com/jigerjain/Interview_Tips
 https://waitbutwhy.com/2014/01/your-family-past-present-and-future.html
 
 Your life in weeks, make it count: https://waitbutwhy.com/2014/05/life-weeks.html?utm_source=tldrsec.com&utm_medium=newsletter&utm_campaign=tl-dr-sec-198-building-a-detection-as-code-pipeline-nist-on-ci-cd-supply-chain-security-finding-malware-with-llms
-
-
-
-
-
-
-Normal operations continue to function.
-
-Automated verification passes.
